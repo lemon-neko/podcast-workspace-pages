@@ -1,2 +1,0 @@
-:HL["/podcast-workspace-pages/_next/static/css/4a221152ccb2ab21.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"episodes","param":null,"prefetchHints":4192,"slots":{"children":{"name":"id","param":{"type":"d","key":"cde8d840-71a6-4f77-80ac-23bda8c426af","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"recording","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}}}},"staleTime":300,"buildId":"WHpt7wyjESGy5ccJr6b53"}

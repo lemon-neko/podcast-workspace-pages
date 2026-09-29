@@ -1,0 +1,6 @@
+{
+  "mode": "pages_readonly",
+  "api_base": "/api",
+  "base_path": "/podcast-workspace-pages",
+  "snapshot_url": "/podcast-workspace-pages/generated/workspace-snapshot.json"
+}

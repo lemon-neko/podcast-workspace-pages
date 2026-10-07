@@ -1,10 +1,9 @@
 {
   "schema_version": 1,
   "app_version": "1.0.0",
-  "exported_at": "2026-09-29T09:59:09.689160+00:00",
+  "exported_at": "2026-10-07T15:08:50.247296+00:00",
   "episode_ids": [
-    "39d00cae-dea0-47d1-afe6-5f77d33d3379",
-    "cde8d840-71a6-4f77-80ac-23bda8c426af"
+    "39d00cae-dea0-47d1-afe6-5f77d33d3379"
   ],
   "routes": {
     "/health": {
@@ -31,7 +30,7 @@
         {
           "stage": "RECORDING",
           "label": "录制",
-          "count": 1
+          "count": 0
         },
         {
           "stage": "POST",
@@ -39,64 +38,27 @@
           "count": 1
         }
       ],
-      "current_episode": {
-        "id": "39d00cae-dea0-47d1-afe6-5f77d33d3379",
-        "number": 2,
-        "title": "EP01：身份转变与认知转变",
-        "stage": "RECORDING",
-        "stage_label": "录制",
-        "next_action": "OPEN_RECORDING",
-        "next_action_label": "打开录制台",
-        "material_ready_count": 3,
-        "material_total": 3,
-        "rundown_status": "READY",
-        "recording_state": "DRAFT",
-        "original_audio_archived": false,
-        "recording_date": null,
-        "updated_at": "2026-09-04T09:51:47.172661"
-      },
+      "current_episode": null,
       "episodes": [
         {
           "id": "39d00cae-dea0-47d1-afe6-5f77d33d3379",
-          "number": 2,
-          "title": "EP01：身份转变与认知转变",
-          "stage": "RECORDING",
-          "stage_label": "录制",
-          "next_action": "OPEN_RECORDING",
-          "next_action_label": "打开录制台",
-          "material_ready_count": 3,
-          "material_total": 3,
-          "rundown_status": "READY",
-          "recording_state": "DRAFT",
-          "original_audio_archived": false,
-          "recording_date": null,
-          "updated_at": "2026-09-04T09:51:47.172661"
-        },
-        {
-          "id": "cde8d840-71a6-4f77-80ac-23bda8c426af",
           "number": 1,
-          "title": "本地试运行：原始录音归档",
+          "title": "EP01：身份转变与认知转变",
           "stage": "POST",
           "stage_label": "后期归档",
           "next_action": "VIEW_POST",
           "next_action_label": "查看原始音频",
-          "material_ready_count": 0,
+          "material_ready_count": 3,
           "material_total": 3,
-          "rundown_status": null,
-          "recording_state": null,
+          "rundown_status": "READY",
+          "recording_state": "DRAFT",
           "original_audio_archived": true,
           "recording_date": null,
-          "updated_at": "2026-09-03T17:03:14.323334"
+          "updated_at": "2026-10-07T15:04:27.114200"
         }
       ],
       "upcoming": [],
-      "topics": [
-        {
-          "id": "run-topic-001",
-          "title": "身份变化与认知变化",
-          "status": "DISCUSSING"
-        }
-      ]
+      "topics": []
     },
     "/program": {
       "id": "default",
@@ -162,21 +124,6 @@
         "description": "从人生阶段、职业与关系变化出发，讨论认知为何会改变。",
         "core_question": "人的成长究竟是主动选择，还是被环境推着走？",
         "why_interesting": "三个人都经历过身份转折，但对主动性的判断不同。",
-        "status": "DISCUSSING",
-        "submitted_by": {
-          "id": "10000000-0000-4000-8000-000000000001",
-          "name": "zz",
-          "initials": "ZZ",
-          "color": "#356859"
-        },
-        "created_at": "2026-09-05T17:00:00+00:00"
-      },
-      {
-        "id": "96ae6465-a17f-4b8d-987d-b1c1092aa0c4",
-        "title": "本地试运行：原始录音归档",
-        "description": "验证本机 SQLite 与原始音频持久化。",
-        "core_question": "如何让三人先把本地流程跑顺？",
-        "why_interesting": "先验证功能，再扩展能力。",
         "status": "SELECTED",
         "submitted_by": {
           "id": "10000000-0000-4000-8000-000000000001",
@@ -184,13 +131,13 @@
           "initials": "ZZ",
           "color": "#356859"
         },
-        "created_at": "2026-09-03T14:41:01.971614"
+        "created_at": "2026-09-05T17:00:00+00:00"
       }
     ],
     "/episodes": [
       {
         "id": "39d00cae-dea0-47d1-afe6-5f77d33d3379",
-        "number": 2,
+        "number": 1,
         "title": "EP01：身份转变与认知转变",
         "core_question": "身份转变 关键事件 原有认知被打破 新认知形成 现在怎么看过去的自己",
         "description": "",
@@ -198,41 +145,6 @@
         "target_duration_seconds": 3600,
         "recording_date": null,
         "recording_notes": "",
-        "status": "PREPARING",
-        "owner": {
-          "id": "10000000-0000-4000-8000-000000000001",
-          "name": "zz",
-          "initials": "ZZ",
-          "color": "#356859"
-        },
-        "editor": {
-          "id": "10000000-0000-4000-8000-000000000002",
-          "name": "kk",
-          "initials": "KK",
-          "color": "#a85d42"
-        },
-        "reviewer": {
-          "id": "10000000-0000-4000-8000-000000000003",
-          "name": "xx",
-          "initials": "XX",
-          "color": "#455f87"
-        },
-        "created_at": "2026-09-04T09:51:47.172653",
-        "updated_at": "2026-09-04T09:51:47.172661"
-      },
-      {
-        "id": "cde8d840-71a6-4f77-80ac-23bda8c426af",
-        "number": 1,
-        "title": "本地试运行：原始录音归档",
-        "core_question": "如何让三人先把本地流程跑顺？",
-        "description": "只验证本机归档、播放与持久化。",
-        "discussion_directions": [
-          "先完成准备",
-          "录音后只归档"
-        ],
-        "target_duration_seconds": 3600,
-        "recording_date": null,
-        "recording_notes": "本机验收样本",
         "status": "RECORDED",
         "owner": {
           "id": "10000000-0000-4000-8000-000000000001",
@@ -252,13 +164,13 @@
           "initials": "XX",
           "color": "#455f87"
         },
-        "created_at": "2026-09-03T14:41:17.748408",
-        "updated_at": "2026-09-03T17:03:14.323334"
+        "created_at": "2026-09-04T09:51:47.172653",
+        "updated_at": "2026-10-07T15:04:27.114200"
       }
     ],
     "/episodes/39d00cae-dea0-47d1-afe6-5f77d33d3379": {
       "id": "39d00cae-dea0-47d1-afe6-5f77d33d3379",
-      "number": 2,
+      "number": 1,
       "title": "EP01：身份转变与认知转变",
       "core_question": "身份转变 关键事件 原有认知被打破 新认知形成 现在怎么看过去的自己",
       "description": "",
@@ -266,7 +178,7 @@
       "target_duration_seconds": 3600,
       "recording_date": null,
       "recording_notes": "",
-      "status": "PREPARING",
+      "status": "RECORDED",
       "owner": {
         "id": "10000000-0000-4000-8000-000000000001",
         "name": "zz",
@@ -286,7 +198,7 @@
         "color": "#455f87"
       },
       "created_at": "2026-09-04T09:51:47.172653",
-      "updated_at": "2026-09-04T09:51:47.172661",
+      "updated_at": "2026-10-07T15:04:27.114200",
       "preparations": [
         {
           "id": "072e2769-cee3-4142-8889-fd475e7f99d2",
@@ -1978,114 +1890,6 @@
       "elapsed_seconds": 0,
       "completed_at": null,
       "markers": []
-    },
-    "/episodes/cde8d840-71a6-4f77-80ac-23bda8c426af": {
-      "id": "cde8d840-71a6-4f77-80ac-23bda8c426af",
-      "number": 1,
-      "title": "本地试运行：原始录音归档",
-      "core_question": "如何让三人先把本地流程跑顺？",
-      "description": "只验证本机归档、播放与持久化。",
-      "discussion_directions": [
-        "先完成准备",
-        "录音后只归档"
-      ],
-      "target_duration_seconds": 3600,
-      "recording_date": null,
-      "recording_notes": "本机验收样本",
-      "status": "RECORDED",
-      "owner": {
-        "id": "10000000-0000-4000-8000-000000000001",
-        "name": "zz",
-        "initials": "ZZ",
-        "color": "#356859"
-      },
-      "editor": {
-        "id": "10000000-0000-4000-8000-000000000002",
-        "name": "kk",
-        "initials": "KK",
-        "color": "#a85d42"
-      },
-      "reviewer": {
-        "id": "10000000-0000-4000-8000-000000000003",
-        "name": "xx",
-        "initials": "XX",
-        "color": "#455f87"
-      },
-      "created_at": "2026-09-03T14:41:17.748408",
-      "updated_at": "2026-09-03T17:03:14.323334",
-      "preparations": [
-        {
-          "id": "ef5208af-2515-4915-8ebc-e65515f78f96",
-          "user": {
-            "id": "10000000-0000-4000-8000-000000000001",
-            "name": "zz",
-            "initials": "ZZ",
-            "color": "#356859"
-          },
-          "core_viewpoint": "zz：先把本地流程跑顺。",
-          "stories": [
-            "首次本机验收"
-          ],
-          "references": [],
-          "questions": [
-            "数据是否持久化？"
-          ],
-          "notes": "",
-          "ready": true,
-          "updated_at": "2026-09-03T14:42:01.060728"
-        },
-        {
-          "id": "71f31fff-0775-4479-9354-865e21d00aca",
-          "user": {
-            "id": "10000000-0000-4000-8000-000000000002",
-            "name": "kk",
-            "initials": "KK",
-            "color": "#a85d42"
-          },
-          "core_viewpoint": "kk：确认原始音频可回放。",
-          "stories": [
-            "测试录音归档"
-          ],
-          "references": [],
-          "questions": [
-            "重启后是否还在？"
-          ],
-          "notes": "",
-          "ready": true,
-          "updated_at": "2026-09-03T14:42:01.072885"
-        },
-        {
-          "id": "e323b1ed-2180-4f8e-8415-982867bafc75",
-          "user": {
-            "id": "10000000-0000-4000-8000-000000000003",
-            "name": "xx",
-            "initials": "XX",
-            "color": "#455f87"
-          },
-          "core_viewpoint": "xx：不在本轮开启转写。",
-          "stories": [
-            "明确阶段边界"
-          ],
-          "references": [],
-          "questions": [
-            "能否完成备份？"
-          ],
-          "notes": "",
-          "ready": true,
-          "updated_at": "2026-09-03T14:42:01.081888"
-        }
-      ],
-      "audio_assets": [],
-      "transcript": null,
-      "versions": []
-    },
-    "/episodes/cde8d840-71a6-4f77-80ac-23bda8c426af/materials": [],
-    "/episodes/cde8d840-71a6-4f77-80ac-23bda8c426af/materials?include_archived=true": [],
-    "/episodes/cde8d840-71a6-4f77-80ac-23bda8c426af/analysis": null,
-    "/episodes/cde8d840-71a6-4f77-80ac-23bda8c426af/rundown": {
-      "current": null,
-      "proposals": []
-    },
-    "/episodes/cde8d840-71a6-4f77-80ac-23bda8c426af/recording-session": null
+    }
   }
 }
